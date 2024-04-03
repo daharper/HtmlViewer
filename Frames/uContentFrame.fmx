@@ -1,0 +1,28 @@
+object ContentFrame: TContentFrame
+  OnTap = FrameTap
+  Align = Top
+  Padding.Left = 16.000000000000000000
+  Size.Width = 286.000000000000000000
+  Size.Height = 52.000000000000000000
+  Size.PlatformDefault = False
+  OnClick = FrameClick
+  object BookSeperator: TLine
+    Align = Top
+    HitTest = False
+    LineType = Top
+    Position.X = 16.000000000000000000
+    Size.Width = 270.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFF36414A
+  end
+  object lblContent: TLabel
+    Align = Client
+    StyledSettings = [Family, Style, FontColor]
+    Size.Width = 270.000000000000000000
+    Size.Height = 51.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'lblContent'
+    TabOrder = 1
+  end
+end
