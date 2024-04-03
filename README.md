@@ -15,7 +15,7 @@ https://www.beyondvelocity.com/post/138
 
 ### Usage
 
-Export a document from the HubContent project, then run the HtmlViewer.exe and click the refresh button.
+Create and Export a document from the HubContent project, then run the HtmlViewer.exe and click the refresh button.
 
 The settings button toggles the window chrome.
 
